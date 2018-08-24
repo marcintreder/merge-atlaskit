@@ -1,0 +1,24 @@
+{
+  "rootId": "button1",
+  "elements": {
+    "button1": {
+      "name": "Button",
+      "props": {
+        "appearance": "primary",
+        "children": "Merge",
+        "isDisabled": false,
+        "className": "",
+        "form": "",
+        "href": "",
+        "id": "",
+        "isDisabled": false,
+        "isSelected": false,
+        "spacing": "default",
+        "target": "",
+        "type": "button",
+        "shouldFitContainer": false,
+        "autoFocus": false
+      }
+    }
+  }
+}

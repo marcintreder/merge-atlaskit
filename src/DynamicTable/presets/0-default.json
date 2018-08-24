@@ -1,0 +1,17 @@
+{
+  "rootId": "table1",
+  "elements": {
+    "button1": {
+      "name": "Table",
+      "props": {
+        "rowsPerPage": 10,
+        "defaultPage": 1,
+        "loadingSpinnerSize": "large",
+        "isLoading": false,
+        "isFixedSize": true,
+        "defaultSortKey": "term",
+        "defaultSortOrder": "ASC",
+      }
+    }
+  }
+}

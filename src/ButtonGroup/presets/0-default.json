@@ -1,0 +1,15 @@
+{
+  "rootId": "buttonGroup1",
+  "elements": {
+    "buttonGroup1": {
+      "name": "ButtonGroup",
+      "props": {
+        "appearance": "",
+        "children": {
+          "uxpinPresetElementId": "button1",
+          "uxpinPresetElementId": "button2"
+        },
+      }
+    }
+  }
+}
