@@ -2,13 +2,23 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import Button from "@atlaskit/button";
+import buttonProps from "@atlaskit/button/dist/esm/components/GetButtonProps.js";
 
 export default function ButtonUXPin(props) {
   return <Button {...props}>{props.children}</Button>;
-};
+}
 
 ButtonUXPin.propTypes = {
-  appearance: PropTypes.oneOf(["primary", "default", "danger", "link", "subtle", "subtle-link", "warning", "help"]),
+  appearance: PropTypes.oneOf([
+    "primary",
+    "default",
+    "danger",
+    "link",
+    "subtle",
+    "subtle-link",
+    "warning",
+    "help"
+  ]),
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
   form: PropTypes.string,
@@ -23,7 +33,7 @@ ButtonUXPin.propTypes = {
   target: PropTypes.string,
   type: PropTypes.oneOf(["button", "submit"]),
   shouldFitContainer: PropTypes.bool,
-  autoFocus: PropTypes.bool,
+  autoFocus: PropTypes.bool
 };
 
 ButtonUXPin.defaultProps = {
@@ -31,7 +41,7 @@ ButtonUXPin.defaultProps = {
   children: "Test",
   spacing: "default",
   shouldFitContainer: false,
-  autoFocus: false,
+  autoFocus: false
 };
 
 /* Unsuported props in alpha

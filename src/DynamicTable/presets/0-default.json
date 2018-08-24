@@ -1,7 +1,7 @@
 {
   "rootId": "table1",
   "elements": {
-    "button1": {
+    "table1": {
       "name": "Table",
       "props": {
         "rowsPerPage": 10,

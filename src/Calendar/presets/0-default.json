@@ -1,7 +1,7 @@
 {
   "rootId": "calendar1",
   "elements": {
-    "button1": {
+    "calendar1": {
       "name": "Calendar",
       "props": {
         "defaultDisabled": ["2020-12-04"],

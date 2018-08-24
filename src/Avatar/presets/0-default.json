@@ -1,7 +1,7 @@
 {
   "rootId": "avatar1",
   "elements": {
-    "button1": {
+    "avatar1": {
       "name": "Avatar",
       "props": {
         "appearance": "square",

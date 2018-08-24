@@ -1,7 +1,7 @@
 {
   "rootId": "button2",
   "elements": {
-    "button1": {
+    "button2": {
       "name": "Button",
       "props": {
         "appearance": "secondary",
