@@ -5,10 +5,14 @@
       "name": "ButtonGroup",
       "props": {
         "appearance": "",
-        "children": {
-          "uxpinPresetElementId": "button1",
-          "uxpinPresetElementId": "button2"
-        },
+        "children": [
+          {
+            "uxpinPresetElementId": "button1"
+          },
+          {
+            "uxpinPresetElementId": "button2"
+          }
+        ]
       }
     }
   }

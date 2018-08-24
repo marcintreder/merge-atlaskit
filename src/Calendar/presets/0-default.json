@@ -12,8 +12,8 @@
         "innerProps": {
           "style": {
             "border": "1px solid red",
-            "display": "inline-block",
-          },
+            "display": "inline-block"
+          }
         }
       }
     }

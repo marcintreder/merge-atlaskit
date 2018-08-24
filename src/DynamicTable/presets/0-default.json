@@ -10,7 +10,7 @@
         "isLoading": false,
         "isFixedSize": true,
         "defaultSortKey": "term",
-        "defaultSortOrder": "ASC",
+        "defaultSortOrder": "ASC"
       }
     }
   }
