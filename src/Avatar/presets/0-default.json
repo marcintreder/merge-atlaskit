@@ -1,0 +1,14 @@
+{
+  "rootId": "avatar1",
+  "elements": {
+    "button1": {
+      "name": "Avatar",
+      "props": {
+        "appearance": "square",
+        "name": "large",
+        "size": "large",
+        "presence": "online",
+      }
+    }
+  }
+}
