@@ -1,0 +1,13 @@
+[include]
+./src
+
+[ignore]
+
+[libs]
+
+[lints]
+
+[options]
+
+module.name_mapper='^\(folder1\|folder2\|folder3\|folder4\)\/\(.*\)$' -> '<PROJECT_ROOT>/app1/'
+module.system.node.resolve_dirname=node_modules

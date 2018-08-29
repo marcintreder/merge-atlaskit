@@ -1,3 +1,9 @@
 {
-  "presets": ["babel-preset-env","react", "es2015"],
+  "presets": [
+    "babel-preset-env",
+    "babel-preset-flow",
+    "flow",
+    "react",
+    "es2015"
+  ]
 }

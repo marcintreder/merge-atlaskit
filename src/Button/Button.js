@@ -1,8 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-
 import Button from "@atlaskit/button";
-import buttonProps from "@atlaskit/button/dist/esm/components/GetButtonProps.js";
 
 export default function ButtonUXPin(props) {
   return <Button {...props}>{props.children}</Button>;
