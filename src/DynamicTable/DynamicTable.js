@@ -27,7 +27,15 @@ DynamicTableUXPin.propTypes = {
   paginationi18n: PropTypes.shape({
     prev: PropTypes.string,
     next: PropTypes.string,
-  })
+  }),
+  caption: PropTypes.element,
+  head: PropTypes.object,
+  rows: PropTypes.object,
+  emptyView: PropTypes.element,
+  onSetPage: PropTypes.func,
+  onSort: PropTypes.func,
+  onRankStart: PropTypes.func,
+  onRankEnd: PropTypes.func
 };
 
 DynamicTableUXPin.defaultProps = {
@@ -37,13 +45,3 @@ DynamicTableUXPin.defaultProps = {
   rowsPerPage: Infinity,
 };
 
-/* Props Unsuported in Alpha
-** caption: PropTypes.element,
-** head: PropTypes.object,
-** rows: PropTypes.object,
-** emptyView: PropTypes.element,
-** onSetPage: PropTypes.func,
-** onSort: PropTypes.func,
-** onRankStart: PropTypes.func,
-** onRankEnd: PropTypes.func,
-**/

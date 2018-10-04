@@ -1,18 +1,31 @@
 {
-  "rootId": "buttonGroup1",
+  "rootId": "buttonGroup2866229563",
   "elements": {
-    "buttonGroup1": {
+    "buttonGroup2866229563": {
       "name": "ButtonGroup",
       "props": {
-        "appearance": "",
         "children": [
           {
-            "uxpinPresetElementId": "button1"
+            "uxpinPresetElementId": "button2857456601"
           },
           {
-            "uxpinPresetElementId": "button2"
+            "uxpinPresetElementId": "button3359345304"
           }
         ]
+      }
+    },
+    "button2857456601": {
+      "name": "Button",
+      "props": {
+        "appearance": "primary",
+        "children": "UXPin"
+      }
+    },
+    "button3359345304": {
+      "name": "Button",
+      "props": {
+        "appearance": "secondary",
+        "children": "Merge"
       }
     }
   }

@@ -1,19 +1,14 @@
 {
-  "rootId": "button1",
+  "rootId": "button3679754361",
   "elements": {
-    "button1": {
+    "button3679754361": {
       "name": "Button",
       "props": {
         "appearance": "primary",
         "children": "Merge",
         "isDisabled": false,
-        "className": "",
-        "form": "",
-        "href": "",
-        "id": "",
         "isSelected": false,
         "spacing": "default",
-        "target": "",
         "type": "button",
         "shouldFitContainer": false,
         "autoFocus": false

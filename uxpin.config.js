@@ -9,6 +9,7 @@ module.exports = {
           "src/DynamicTable/DynamicTable.js",
           "src/Calendar/Calendar.js",
           "src/Avatar/Avatar.js",
+          "src/AvatarGroup/AvatarGroup.js",
       ]
       }
     ]

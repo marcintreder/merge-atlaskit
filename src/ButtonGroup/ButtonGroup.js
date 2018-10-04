@@ -14,9 +14,5 @@ export default function ButtonGroupUXPin(props) {
 
 ButtonGroupUXPin.propTypes = {
   appearance: PropTypes.oneOf(["primary", "default", "danger", "link", "subtle", "subtle-link", "warning", "help"]),
-  children: PropTypes.node.isRequired,
-};
-
-ButtonGroupUXPin.defaultProps = {
-  children: "Test",
+  children: PropTypes.node,
 };

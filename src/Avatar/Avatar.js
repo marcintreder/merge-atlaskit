@@ -11,6 +11,8 @@ export default function AvatarUXPin(props) {
 
 AvatarUXPin.propTypes = {
   appearance: PropTypes.oneOf(["circle", "square"]),
+  component: PropTypes.node,
+  onClick: PropTypes.func,
   size: PropTypes.oneOf(["xsmall", "small", "medium", "large", "xlarge", "xxlarge"]),
   enableTooltip: PropTypes.bool,
   borderColor: PropTypes.string,
@@ -33,8 +35,3 @@ AvatarUXPin.defaultProps = {
   size: "medium",
   enableTooltip: true,
 };
-
-/* Unsuported props in alpha
-** component: PropTypes.element,
-** onClick: PropTypes.func,
-*/

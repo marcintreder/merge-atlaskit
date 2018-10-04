@@ -1,14 +1,14 @@
 {
-  "rootId": "calendar1",
+  "rootId": "calendar4128299620",
   "elements": {
-    "calendar1": {
+    "calendar4128299620": {
       "name": "Calendar",
       "props": {
         "defaultDisabled": ["2020-12-04"],
         "defaultPreviouslySelected": ["2020-12-06"],
         "defaultSelected": ["2020-12-08"],
         "defaultMonth": 12,
-        "defaultYear": 2020,
+        "defaultYear": 2018,
         "innerProps": {
           "style": {
             "border": "1px solid red",

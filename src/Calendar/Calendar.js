@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import Calendar from "@atlaskit/calendar";
 
 export default function CalendarUXPin(props) {
-  return <Calendar {...props} />;
+  return <Calendar {...props} />
 };
 
 CalendarUXPin.propTypes = {
@@ -22,6 +22,10 @@ CalendarUXPin.propTypes = {
   today: PropTypes.string,
   year: PropTypes.number,
   innerProps: PropTypes.object,
+  onBlur: PropTypes.func,
+  onChange: PropTypes.func,
+  onFocus: PropTypes.func,
+  onSelect: PropTypes.func
 };
 
 CalendarUXPin.defaultProps = {
@@ -30,10 +34,3 @@ CalendarUXPin.defaultProps = {
   defaultPreviouslySelected: [],
   defaultSelected: [],
 };
-
-/* Props Unsuported in Alpha
-** onBlur: PropTypes.func,
-** onChange: PropTypes.func,
-** onFocus: PropTypes.func,
-** onSelect: PropTypes.func,
-**/

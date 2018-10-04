@@ -31,7 +31,17 @@ ButtonUXPin.propTypes = {
   target: PropTypes.string,
   type: PropTypes.oneOf(["button", "submit"]),
   shouldFitContainer: PropTypes.bool,
-  autoFocus: PropTypes.bool
+  autoFocus: PropTypes.bool,
+  tabIndex: PropTypes.number,
+  onFocus: PropTypes.func,
+  onClick: PropTypes.func,
+  onBlur: PropTypes.func,
+  innerRef: PropTypes.func,
+  component: PropTypes.element,
+  ariaControls: PropTypes.string,
+  ariaExpanded: PropTypes.bool,
+  ariaLabel: PropTypes.string,
+  ariaHaspopup: PropTypes.bool
 };
 
 ButtonUXPin.defaultProps = {
@@ -41,16 +51,3 @@ ButtonUXPin.defaultProps = {
   shouldFitContainer: false,
   autoFocus: false
 };
-
-/* Unsuported props in alpha
-** tabIndex: PropTypes.number,
-** onFocus: PropTypes.func,
-** onClick: PropTypes.func,
-** onBlur: PropTypes.func,
-** innerRef: PropTypes.func,
-** component: PropTypes.element,
-** ariaControls: PropTypes.string,
-** ariaExpanded: PropTypes.bool,
-** ariaLabel: PropTypes.string,
-** ariaHaspopup: PropTypes.bool
-*/
