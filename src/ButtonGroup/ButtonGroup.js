@@ -13,6 +13,8 @@ export default function ButtonGroupUXPin(props) {
 };
 
 ButtonGroupUXPin.propTypes = {
+  /** The appearance to apply to all buttons */
   appearance: PropTypes.oneOf(["primary", "default", "danger", "link", "subtle", "subtle-link", "warning", "help"]),
+  /** The buttons to render. */
   children: PropTypes.node,
 };
