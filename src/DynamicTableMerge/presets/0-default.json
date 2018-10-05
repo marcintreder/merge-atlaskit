@@ -1,0 +1,17 @@
+{
+  "rootId": "tablemerge3229688876",
+  "elements": {
+    "tablemerge3229688876": {
+      "name": "DynamicTableMerge",
+      "props": {
+        "rowsPerPage": 10,
+        "defaultPage": 1,
+        "loadingSpinnerSize": "large",
+        "isLoading": false,
+        "isFixedSize": true,
+        "defaultSortKey": "term",
+        "defaultSortOrder": "ASC"
+      }
+    }
+  }
+}

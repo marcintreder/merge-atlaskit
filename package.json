@@ -1,18 +1,22 @@
 {
   "name": "atlasskit-uxpin",
   "version": "1.0.0",
-  "description": "",
+  "description": "Merge Wrappers for Atlassian Atlaskit",
+  "repository": "https://github.com/marcintreder/merge-atlaskit",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "webpack-dev-server --open --no-info --progress --watch",
     "prepare": "node tools/typescopy.js"
   },
-  "author": "",
+  "author": "https://github.com/marcintreder/merge-atlaskit",
   "license": "ISC",
   "dependencies": {
     "@atlaskit/avatar": "^14.0.9",
     "@atlaskit/avatar-group": "^2.1.4",
+    "@atlaskit/badge": "^9.1.4",
+    "@atlaskit/banner": "^7.0.7",
+    "@atlaskit/breadcrumbs": "^6.0.9",
     "@atlaskit/button": "^9.0.7",
     "@atlaskit/calendar": "^7.0.6",
     "@atlaskit/dynamic-table": "^10.0.10",

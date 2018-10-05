@@ -1,0 +1,32 @@
+{
+  "rootId": "buttonGroupMerge2866229563",
+  "elements": {
+    "buttonGroupMerge2866229563": {
+      "name": "ButtonGroupMerge",
+      "props": {
+        "children": [
+          {
+            "uxpinPresetElementId": "button2857456601"
+          },
+          {
+            "uxpinPresetElementId": "button3359345304"
+          }
+        ]
+      }
+    },
+    "button2857456601": {
+      "name": "ButtonMerge",
+      "props": {
+        "appearance": "primary",
+        "children": "UXPin"
+      }
+    },
+    "button3359345304": {
+      "name": "ButtonMerge",
+      "props": {
+        "appearance": "secondary",
+        "children": "Merge"
+      }
+    }
+  }
+}

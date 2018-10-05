@@ -1,0 +1,13 @@
+{
+  "rootId": "bannermerge4038267449",
+  "elements": {
+    "bannermerge4038267449": {
+      "name": "BannerMerge",
+      "props": {
+        "appearance": "warning",
+        "isOpen": "true",
+        "children": "This is an warning banner"
+      }
+    }
+  }
+}
