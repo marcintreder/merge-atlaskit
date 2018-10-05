@@ -20,6 +20,7 @@
     "@atlaskit/button": "^9.0.7",
     "@atlaskit/calendar": "^7.0.6",
     "@atlaskit/checkbox": "^5.0.3",
+    "@atlaskit/code": "^8.0.3",
     "@atlaskit/dynamic-table": "^10.0.10",
     "prop-types": "^15.6.2",
     "punycode": "^2.1.1",

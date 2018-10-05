@@ -15,6 +15,7 @@ module.exports = {
           "src/ButtonGroupMerge/ButtonGroupMerge.js",
           "src/CalendarMerge/CalendarMerge.js",
           "src/CheckboxMerge/CheckboxMerge.js",
+          "src/CodeMerge/CodeMerge.js",
       ]
       }
     ]

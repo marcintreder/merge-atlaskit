@@ -1,0 +1,15 @@
+{
+  "rootId": "checkboxmerge1539534273",
+  "elements": {
+    "checkboxmerge1539534273": {
+      "name": "CheckboxMerge",
+      "props": {
+        "value": "Basic checkbox",
+        "label": "Basic checkbox",
+        "name": "checkbox-basic"
+      }
+    }
+  }
+}
+
+

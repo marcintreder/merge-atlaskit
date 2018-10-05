@@ -1,0 +1,13 @@
+{
+  "rootId": "codemerge1079287615",
+  "elements": {
+    "codemerge1079287615": {
+      "name": "CodeMerge",
+      "props": {
+        "block": false,
+        "language": "javascript",
+        "text": "const test = 'test';"
+      }
+    }
+  }
+}
