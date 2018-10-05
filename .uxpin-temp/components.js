@@ -9,6 +9,7 @@ import BreadcrumbsMerge from '../src/BreadcrumbsMerge/BreadcrumbsMerge';
 import ButtonGroupMerge from '../src/ButtonGroupMerge/ButtonGroupMerge';
 import ButtonMerge from '../src/ButtonMerge/ButtonMerge';
 import CalendarMerge from '../src/CalendarMerge/CalendarMerge';
+import CheckboxMerge from '../src/CheckboxMerge/CheckboxMerge';
 import Wrapper from '../src/Wrapper/UXPinWrapper.js';
 export {
   AvatarGroupMerge,
@@ -20,6 +21,7 @@ export {
   ButtonGroupMerge,
   ButtonMerge,
   CalendarMerge,
+  CheckboxMerge,
   Wrapper,
   React,
   ReactDOM,
