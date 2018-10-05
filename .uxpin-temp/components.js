@@ -9,7 +9,6 @@ import BreadcrumbsMerge from '../src/BreadcrumbsMerge/BreadcrumbsMerge';
 import ButtonGroupMerge from '../src/ButtonGroupMerge/ButtonGroupMerge';
 import ButtonMerge from '../src/ButtonMerge/ButtonMerge';
 import CalendarMerge from '../src/CalendarMerge/CalendarMerge';
-import DynamicTableMerge from '../src/DynamicTableMerge/DynamicTableMerge';
 import Wrapper from '../src/Wrapper/UXPinWrapper.js';
 export {
   AvatarGroupMerge,
@@ -21,7 +20,6 @@ export {
   ButtonGroupMerge,
   ButtonMerge,
   CalendarMerge,
-  DynamicTableMerge,
   Wrapper,
   React,
   ReactDOM,
