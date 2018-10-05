@@ -16,6 +16,7 @@ module.exports = {
           "src/CalendarMerge/CalendarMerge.js",
           "src/CheckboxMerge/CheckboxMerge.js",
           "src/CodeMerge/CodeMerge.js",
+          "src/CommentMerge/CommentMerge.js",
       ]
       }
     ]
