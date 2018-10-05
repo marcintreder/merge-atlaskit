@@ -1,0 +1,11 @@
+{
+  "rootId": "datetimepickermerge2359280120",
+  "elements": {
+    "datetimepickermerge2359280120": {
+      "name": "DateTimePickerMerge",
+      "props": {
+        "type": "DateTimePicker"
+      }
+    }
+  }
+}
