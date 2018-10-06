@@ -28,6 +28,7 @@
     "@atlaskit/field-range": "^5.0.7",
     "@atlaskit/field-text": "^7.0.11",
     "@atlaskit/field-text-area": "^4.0.9",
+    "@atlaskit/global-navigation": "^5.0.1",
     "prop-types": "^15.6.2",
     "punycode": "^2.1.1",
     "react": "^16.4.2",

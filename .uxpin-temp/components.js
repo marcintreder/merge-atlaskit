@@ -19,6 +19,7 @@ import DropdownMenuMerge from '../src/DropdownMenuMerge/DropdownMenuMerge';
 import FieldRangeMerge from '../src/FieldRangeMerge/FieldRangeMerge';
 import FieldTextAreaMerge from '../src/FieldTextAreaMerge/FieldTextAreaMerge';
 import FieldTextMerge from '../src/FieldTextMerge/FieldTextMerge';
+import GlobalNavigationMerge from '../src/GlobalNavigationMerge/GlobalNavigationMerge';
 import Wrapper from '../src/Wrapper/UXPinWrapper.js';
 export {
   AvatarGroupMerge,
@@ -40,6 +41,7 @@ export {
   FieldRangeMerge,
   FieldTextAreaMerge,
   FieldTextMerge,
+  GlobalNavigationMerge,
   Wrapper,
   React,
   ReactDOM,
