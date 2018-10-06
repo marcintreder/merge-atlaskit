@@ -13,6 +13,11 @@ import CheckboxMerge from '../src/CheckboxMerge/CheckboxMerge';
 import CodeMerge from '../src/CodeMerge/CodeMerge';
 import CommentMerge from '../src/CommentMerge/CommentMerge';
 import DateTimePickerMerge from '../src/DateTimePickerMerge/DateTimePickerMerge';
+import DropdownItemGroupMerge from '../src/DropdownItemGroupMerge/DropdownItemGroupMerge';
+import DropdownItemMerge from '../src/DropdownItemMerge/DropdownItemMerge';
+import DropdownMenuMerge from '../src/DropdownMenuMerge/DropdownMenuMerge';
+import FieldRangeMerge from '../src/FieldRangeMerge/FieldRangeMerge';
+import FieldTextAreaMerge from '../src/FieldTextAreaMerge/FieldTextAreaMerge';
 import Wrapper from '../src/Wrapper/UXPinWrapper.js';
 export {
   AvatarGroupMerge,
@@ -28,6 +33,11 @@ export {
   CodeMerge,
   CommentMerge,
   DateTimePickerMerge,
+  DropdownItemGroupMerge,
+  DropdownItemMerge,
+  DropdownMenuMerge,
+  FieldRangeMerge,
+  FieldTextAreaMerge,
   Wrapper,
   React,
   ReactDOM,

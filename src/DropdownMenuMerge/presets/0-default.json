@@ -1,0 +1,44 @@
+{
+  "rootId": "dropdownmenumerge1877534843",
+  "elements": {
+    "dropdownmenumerge1877534843": {
+      "name": "DropdownMenuMerge",
+      "props": {
+        "trigger": "Choices",
+        "triggerType": "button",
+        "shouldFlip": false,
+        "position": "right middle",
+        "children": {
+          "uxpinPresetElementId": "dropdownitemgroupmerge942062612"
+        }
+      }
+    },
+    "dropdownitemgroupmerge942062612": {
+      "name": "DropdownItemGroupMerge",
+      "props": {
+        "children": [
+          {
+            "uxpinPresetElementId": "dropdownitemmerge436508762"
+          },
+          {
+            "uxpinPresetElementId": "dropdownitemmerge4243733947"
+          }
+        ]
+      }
+    },
+    "dropdownitemmerge436508762": {
+      "name": "DropdownItemMerge",
+      "props": {
+        "children": "Test 1"
+      }
+    },
+    "dropdownitemmerge4243733947": {
+      "name": "DropdownItemMerge",
+      "props": {
+        "children": "Test 2"
+      }
+    }
+  }
+}
+
+

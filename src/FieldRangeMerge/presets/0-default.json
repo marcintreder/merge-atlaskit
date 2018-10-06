@@ -1,0 +1,16 @@
+{
+  "rootId": "fieldrangemerge3388932504",
+  "elements": {
+    "fieldrangemerge3388932504": {
+      "name": "FieldRangeMerge",
+      "props": {
+        "value": 0,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      }
+    }
+  }
+}
+
+

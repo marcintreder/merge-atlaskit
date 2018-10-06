@@ -17,11 +17,20 @@ module.exports = {
           "src/CheckboxMerge/CheckboxMerge.js",
           "src/CodeMerge/CodeMerge.js",
           "src/CommentMerge/CommentMerge.js",
-          "src/DateTimePickerMerge/DateTimePickerMerge.js"
+          "src/DateTimePickerMerge/DateTimePickerMerge.js",
+          "src/DropdownMenuMerge/DropdownMenuMerge.js",
+          "src/DropdownItemMerge/DropdownItemMerge.js",
+          "src/DropdownItemGroupMerge/DropdownItemGroupMerge.js",
+          "src/FieldRangeMerge/FieldRangeMerge.js",
+          "src/FieldTextAreaMerge/FieldTextAreaMerge.js"
       ]
       }
     ]
   }
 };
 
-// "src/DynamicTableMerge/DynamicTableMerge.js"
+/* 
+"src/DynamicTableMerge/DynamicTableMerge.js"
+"src/DropdownItemGroupRadioMerge/DropdownItemGroupRadioMerge.js"
+"src/DropdownItemRadioMerge/DropdownItemRadioMerge.js"
+*/
