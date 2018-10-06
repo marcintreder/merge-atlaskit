@@ -1,0 +1,13 @@
+{
+  "rootId": "fieldtextmerge1054311139",
+  "elements": {
+    "fieldtextmerge1054311139": {
+      "name": "FieldTextMerge",
+      "props": {
+        "label": "Required"
+      }
+    }
+  }
+}
+
+

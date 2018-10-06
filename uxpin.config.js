@@ -22,7 +22,8 @@ module.exports = {
           "src/DropdownItemMerge/DropdownItemMerge.js",
           "src/DropdownItemGroupMerge/DropdownItemGroupMerge.js",
           "src/FieldRangeMerge/FieldRangeMerge.js",
-          "src/FieldTextAreaMerge/FieldTextAreaMerge.js"
+          "src/FieldTextAreaMerge/FieldTextAreaMerge.js",
+          "src/FieldTextMerge/FieldTextMerge.js"
       ]
       }
     ]
