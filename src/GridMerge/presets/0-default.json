@@ -1,0 +1,63 @@
+{
+  "rootId": "pagemerge3453962926",
+  "elements": {
+    "pagemerge3453962926": {
+      "name": "PageMerge",
+      "props": {
+        "children": {
+          "uxpinPresetElementId": "gridmerge1753499958"
+        }
+      }
+    },
+    "gridmerge1753499958": {
+      "name": "GridMerge",
+      "props": {
+        "spacing": "comfortable",
+        "children": [
+          {
+            "uxpinPresetElementId": "gridcolumnmerge2779212884"
+          },
+          {
+            "uxpinPresetElementId": "gridcolumnmerge4269110211"
+          }
+        ]
+      }
+    },
+    "gridcolumnmerge2779212884": {
+      "name": "GridColumnMerge",
+      "props": {
+        "medium": 8,
+        "children": {
+          "uxpinPresetElementId": "bannermerge302360706"
+        }
+      }
+    },
+    "gridcolumnmerge4269110211": {
+      "name": "GridColumnMerge",
+      "props": {
+        "medium": 4,
+        "children": {
+          "uxpinPresetElementId": "bannermerge3255065924"
+        }
+      }
+    },
+    "bannermerge302360706": {
+      "name": "BannerMerge",
+      "props": {
+        "isOpen": true,
+        "appearance": "warning",
+        "children": "8 Columns"
+      }
+    },
+    "bannermerge3255065924": {
+      "name": "BannerMerge",
+      "props": {
+        "isOpen": true,
+        "appearance": "warning",
+        "children": "3 Columns"
+      }
+    }
+  }
+}
+
+

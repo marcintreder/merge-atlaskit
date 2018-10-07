@@ -1,0 +1,44 @@
+{
+  "rootId": "taggroupmerge4229359272",
+  "elements": {
+    "taggroupmerge4229359272": {
+      "name": "TagGroupMerge",
+      "props": {
+        "children": [
+          {
+            "uxpinPresetElementId": "tagmerge3669519976"
+          },
+          {
+            "uxpinPresetElementId": "tagmerge3138584572"
+          },
+          {
+            "uxpinPresetElementId": "tagmerge1924751172"
+          }
+        ]
+      }
+    },
+    "tagmerge3669519976": {
+      "name": "TagMerge",
+      "props": {
+        "text": "Tag 1",
+        "removeButtonText": "Aria label" 
+      }
+    },
+    "tagmerge3138584572": {
+      "name": "TagMerge",
+      "props": {
+        "text": "Tag 2",
+        "removeButtonText": "Aria label" 
+      }
+    },
+    "tagmerge1924751172": {
+      "name": "TagMerge",
+      "props": {
+        "text": "Tag 3",
+        "removeButtonText": "Aria label" 
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,13 @@
+{
+  "rootId": "paginationmerge3127849759",
+  "elements": {
+    "paginationmerge3127849759": {
+      "name": "PaginationMerge",
+      "props": {
+        "defaultValue": 1,
+        "total": 10
+    }
+  }
+}
+
+

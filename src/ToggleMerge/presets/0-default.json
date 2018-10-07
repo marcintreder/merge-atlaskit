@@ -1,0 +1,13 @@
+{
+  "rootId": "togglemerge1514818923",
+  "elements": {
+    "togglemerge1514818923": {
+      "name": "ToggleMerge",
+      "props": {
+        "size": "large",
+        "isDefaultChecked": true
+    }
+  }
+}
+
+

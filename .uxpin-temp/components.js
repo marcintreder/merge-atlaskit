@@ -20,6 +20,20 @@ import FieldRangeMerge from '../src/FieldRangeMerge/FieldRangeMerge';
 import FieldTextAreaMerge from '../src/FieldTextAreaMerge/FieldTextAreaMerge';
 import FieldTextMerge from '../src/FieldTextMerge/FieldTextMerge';
 import GlobalNavigationMerge from '../src/GlobalNavigationMerge/GlobalNavigationMerge';
+import GridColumnMerge from '../src/GridColumnMerge/GridColumnMerge';
+import GridMerge from '../src/GridMerge/GridMerge';
+import NpsMerge from '../src/NpsMerge/NpsMerge';
+import PageHeaderMerge from '../src/PageHeaderMerge/PageHeaderMerge';
+import PageMerge from '../src/PageMerge/PageMerge';
+import PaginationMerge from '../src/PaginationMerge/PaginationMerge';
+import RadioGroupMerge from '../src/RadioGroupMerge/RadioGroupMerge';
+import RadioMerge from '../src/RadioMerge/RadioMerge';
+import SectionMessageMerge from '../src/SectionMessageMerge/SectionMessageMerge';
+import SelectMerge from '../src/SelectMerge/SelectMerge';
+import SpinnerMerge from '../src/SpinnerMerge/SpinnerMerge';
+import TagGroupMerge from '../src/TagGroupMerge/TagGroupMerge';
+import TagMerge from '../src/TagMerge/TagMerge';
+import ToggleMerge from '../src/ToggleMerge/ToggleMerge';
 import Wrapper from '../src/Wrapper/UXPinWrapper.js';
 export {
   AvatarGroupMerge,
@@ -42,6 +56,20 @@ export {
   FieldTextAreaMerge,
   FieldTextMerge,
   GlobalNavigationMerge,
+  GridColumnMerge,
+  GridMerge,
+  NpsMerge,
+  PageHeaderMerge,
+  PageMerge,
+  PaginationMerge,
+  RadioGroupMerge,
+  RadioMerge,
+  SectionMessageMerge,
+  SelectMerge,
+  SpinnerMerge,
+  TagGroupMerge,
+  TagMerge,
+  ToggleMerge,
   Wrapper,
   React,
   ReactDOM,

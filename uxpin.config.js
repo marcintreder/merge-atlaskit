@@ -24,8 +24,22 @@ module.exports = {
           "src/FieldRangeMerge/FieldRangeMerge.js",
           "src/FieldTextAreaMerge/FieldTextAreaMerge.js",
           "src/FieldTextMerge/FieldTextMerge.js",
-          "src/GlobalNavigationMerge/GlobalNavigationMerge.js"
-      ]
+          "src/GlobalNavigationMerge/GlobalNavigationMerge.js",
+          "src/NpsMerge/NpsMerge.js",
+          "src/PageHeaderMerge/PageHeaderMerge.js",
+          "src/PageMerge/PageMerge.js",
+          "src/GridMerge/GridMerge.js",
+          "src/GridColumnMerge/GridColumnMerge.js",
+          "src/PaginationMerge/PaginationMerge.js",
+          "src/RadioMerge/RadioMerge.js",
+          "src/RadioGroupMerge/RadioGroupMerge.js",
+          "src/SectionMessageMerge/SectionMessageMerge.js",
+          "src/SelectMerge/SelectMerge.js",
+          "src/SpinnerMerge/SpinnerMerge.js",
+          "src/TagMerge/TagMerge.js",
+          "src/TagGroupMerge/TagGroupMerge.js",
+          "src/ToggleMerge/ToggleMerge.js"
+        ]
       }
     ]
   }
