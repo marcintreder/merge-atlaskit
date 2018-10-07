@@ -49,4 +49,8 @@ module.exports = {
 "src/DynamicTableMerge/DynamicTableMerge.js"
 "src/DropdownItemGroupRadioMerge/DropdownItemGroupRadioMerge.js"
 "src/DropdownItemRadioMerge/DropdownItemRadioMerge.js"
+
+uxpin-code --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js --cwd ~/Documents/dev/atlassian/atlaskit-uxpin --dump > ./metadata.json
 */
+
+

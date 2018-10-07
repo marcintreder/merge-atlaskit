@@ -16,6 +16,7 @@
           { "label": "Perth", "value": "perth" },
           { "label": "Sydney", "value": "sydney" }
         ]
+      }
     }
   }
 }

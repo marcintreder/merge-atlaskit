@@ -6,6 +6,7 @@
       "props": {
         "defaultValue": 1,
         "total": 10
+      }
     }
   }
 }

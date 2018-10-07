@@ -6,6 +6,7 @@
       "props": {
         "text": "Rounded Tag",
         "appearance": "rounded"
+      }
     }
   }
 }
