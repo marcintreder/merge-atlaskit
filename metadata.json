@@ -2020,6 +2020,15 @@
           ],
           "properties": [
             {
+              "description": "",
+              "isRequired": false,
+              "name": "block",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
               "description": "The code to be formatted",
               "isRequired": false,
               "name": "text",
@@ -3004,7 +3013,7 @@
           "documentation": {
             "examples": [
               {
-                "code": "<CommentMerge \n    type=\"author\"\n    author=\"John Smith\"\n    edited=\"edited\"\n    restrictedTo=\"Admins Only\"\n    time=\"30 August, 2016\"\n    content=\"Content goes here.\"\n    actions={[\"edit\",\"reply\",\"like\"]}\n    avatar={\n        <AvatarMerge \n            src=\"https://api.adorable.io/avatars/285/a@uxpin.com.png\" \n            label=\"Atlaskit avatar\" \n            size=\"medium\" />}\n    \n/>"
+                "code": "<CommentMerge \n    type=\"author\"\n    author=\"John Smith\"\n    edited=\"edited\"\n    restrictedTo=\"Admins Only\"\n    time=\"30 August, 2016\"\n    content=\"Content goes here.\"\n    actions={[\"edit\",\"reply\",\"like\"]} />"
               }
             ]
           },
@@ -3028,22 +3037,11 @@
           "presets": [
             {
               "elements": {
-                "avatarmerge3371046859": {
-                  "name": "AvatarMerge",
-                  "props": {
-                    "label": "Atlaskit avatar",
-                    "size": "medium",
-                    "src": "https://api.adorable.io/avatars/285/a@uxpin.com.png"
-                  }
-                },
                 "comment1333718095": {
                   "name": "CommentMerge",
                   "props": {
                     "actions": ["edit", "reply", "like"],
                     "author": "John Smith",
-                    "avatar": {
-                      "uxpinPresetElementId": "avatarmerge3371046859"
-                    },
                     "content": "Content goes here.",
                     "edited": "edited",
                     "restrictedTo": "Admins Only",

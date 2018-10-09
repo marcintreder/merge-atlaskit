@@ -12,7 +12,7 @@ export default class CodeMerge extends React.Component {
         const props = Object.assign({}, this.props);
         delete props.block;
 
-        if(!this.props.block) {
+        if(!props.block) {
             return <AkCode {...props}>{props.children}</AkCode>;
         } 
         return <AkCodeBlock {...props}>{props.children}</AkCodeBlock>;
@@ -20,6 +20,7 @@ export default class CodeMerge extends React.Component {
 }
 
 CodeMerge.propTypes = {
+    block: PropTypes.bool,
     /** The code to be formatted */
     text: PropTypes.string,
     /** The language in which the code is written */
