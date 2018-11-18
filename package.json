@@ -7,6 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "webpack-dev-server --open --no-info --progress --watch",
+    "start": "uxpin-merge --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js --uxpin-domain t16543previewexperiment.docker.uxpin.com",
     "prepare": "node tools/typescopy.js"
   },
   "author": "https://github.com/marcintreder/merge-atlaskit",
@@ -52,6 +53,7 @@
     "webpack-cli": "^3.1.0"
   },
   "devDependencies": {
+    "@uxpin/merge-cli": "0.0.16",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
@@ -71,7 +73,6 @@
     "style-loader": "^0.22.1",
     "svg-url-loader": "^2.3.2",
     "ts-loader": "^4.5.0",
-    
     "webpack-dev-server": "^3.1.5"
   }
 }
