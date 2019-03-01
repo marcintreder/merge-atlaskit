@@ -8,7 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "webpack-dev-server --open --no-info --progress --watch",
     "start": "uxpin-merge --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js",
-    "prepare": "node tools/typescopy.js"
   },
   "author": "https://github.com/marcintreder/merge-atlaskit",
   "license": "ISC",
