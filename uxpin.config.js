@@ -2,55 +2,74 @@ module.exports = {
   components: {
     categories: [
       {
-        name: "General",
+        name: "Actions",
         include: [
-          "src/AvatarGroupMerge/AvatarGroupMerge.js",
-          "src/AvatarMerge/AvatarMerge.js",
-          "src/ButtonMerge/ButtonMerge.js",
-          "src/BadgeMerge/BadgeMerge.js",
-          "src/BannerMerge/BannerMerge.js",
-          "src/BannerMerge/BannerMerge.js",
-          "src/BreadcrumbsItemMerge/BreadcrumbsItemMerge.js",
-          "src/BreadcrumbsMerge/BreadcrumbsMerge.js",
-          "src/ButtonGroupMerge/ButtonGroupMerge.js",
-          "src/CalendarMerge/CalendarMerge.js",
-          "src/CheckboxMerge/CheckboxMerge.js",
-          "src/CodeMerge/CodeMerge.js",
-          "src/CommentMerge/CommentMerge.js",
-          "src/DateTimePickerMerge/DateTimePickerMerge.js",
-          "src/DropdownMenuMerge/DropdownMenuMerge.js",
-          "src/DropdownItemMerge/DropdownItemMerge.js",
-          "src/DropdownItemGroupMerge/DropdownItemGroupMerge.js",
-          "src/FieldRangeMerge/FieldRangeMerge.js",
-          "src/FieldTextAreaMerge/FieldTextAreaMerge.js",
-          "src/FieldTextMerge/FieldTextMerge.js",
-          "src/GlobalNavigationMerge/GlobalNavigationMerge.js",
-          "src/NpsMerge/NpsMerge.js",
-          "src/PageHeaderMerge/PageHeaderMerge.js",
-          "src/PageMerge/PageMerge.js",
-          "src/GridMerge/GridMerge.js",
-          "src/GridColumnMerge/GridColumnMerge.js",
-          "src/PaginationMerge/PaginationMerge.js",
-          "src/RadioMerge/RadioMerge.js",
-          "src/RadioGroupMerge/RadioGroupMerge.js",
-          "src/SectionMessageMerge/SectionMessageMerge.js",
-          "src/SelectMerge/SelectMerge.js",
-          "src/SpinnerMerge/SpinnerMerge.js",
-          "src/TagMerge/TagMerge.js",
-          "src/TagGroupMerge/TagGroupMerge.js",
-          "src/ToggleMerge/ToggleMerge.js"
+          "src/Button/Button.js",
+          "src/ButtonGroup/ButtonGroup.js",
+        ]
+      },
+      {
+        name: "Form",
+        include: [
+          "src/Checkbox/Checkbox.js",
+          "src/FieldRange/FieldRange.js",
+          "src/FieldTextArea/FieldTextArea.js",
+          "src/FieldText/FieldText.js",
+          "src/Radio/Radio.js",
+          "src/RadioGroup/RadioGroup.js",
+          "src/Select/Select.js",
+          "src/Toggle/Toggle.js",
+        ] 
+      },
+      {
+        name: "Navigation",
+        include: [
+          "src/GlobalNavigation/GlobalNavigation.js",
+          "src/Pagination/Pagination.js",
+          "src/DropdownMenu/DropdownMenu.js",
+          "src/DropdownItem/DropdownItem.js",
+          "src/DropdownItemGroup/DropdownItemGroup.js",
+          "src/DropdownItemGroupRadio/DropdownItemGroupRadio.js",
+          "src/DropdownItemRadio/DropdownItemRadio.js",
+          "src/Breadcrumbs/Breadcrumbs.js",
+          "src/BreadcrumbsItem/BreadcrumbsItem.js",
+        ]
+      },
+      {
+        name: "Date & Time",
+        include: [
+          "src/DateTimePicker/DateTimePicker.js",
+          "src/Calendar/Calendar.js",
+        ]
+      },
+      {
+        name: "Layout",
+        include: [
+          "src/Grid/Grid.js",
+          "src/GridColumn/GridColumn.js",
+          "src/Page/Page.js",
+          "src/PageHeader/PageHeader.js",
+        ]
+      },
+      {
+        name: "Content",
+        include: [
+          "src/Avatar/Avatar.js",
+          "src/AvatarGroup/AvatarGroup.js",
+          "src/Badge/Badge.js",
+          "src/Banner/Banner.js",
+          "src/Code/Code.js",
+          "src/Comment/Comment.js",
+          "src/SectionMessage/SectionMessage.js",
+          "src/Nps/Nps.js",
+          "src/DynamicTable/DynamicTable.js",
+          "src/Spinner/Spinner.js",
+          "src/Tag/Tag.js",
+          "src/TagGroup/TagGroup.js",
         ]
       }
     ]
   }
 };
-
-/* 
-"src/DynamicTableMerge/DynamicTableMerge.js"
-"src/DropdownItemGroupRadioMerge/DropdownItemGroupRadioMerge.js"
-"src/DropdownItemRadioMerge/DropdownItemRadioMerge.js"
-
-uxpin-code --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js --cwd ~/Documents/dev/atlassian/atlaskit-uxpin --dump > ./metadata.json
-*/
 
 
