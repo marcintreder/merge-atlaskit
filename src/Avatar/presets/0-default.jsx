@@ -4,7 +4,7 @@ import Avatar from "../Avatar";
 export default (
   <Avatar
     uxpId="avatar1"
-    appearance="square"
+    appearance="circle"
     name="large"
     size="large"
     presence="online"
