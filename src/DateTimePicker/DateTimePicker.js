@@ -21,7 +21,7 @@ export default class DateTimePicker extends React.Component {
 }
 
 DateTimePicker.propTypes = {
-  type: PropTypes.oneOf(["DataPicker", "TimePicker", "DateTimePicker"]),
+  type: PropTypes.oneOf(["DatePicker", "TimePicker", "DateTimePicker"]),
   /** Defines the appearance which can be default or subtle - no borders, background or icon.
    Appearance values will be ignored if styles are parsed via the selectProps. */
   appearance: PropTypes.oneOf(["default", "subtle"]),
