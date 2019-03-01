@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import {
   DatePicker,
-  DateTimePicker,
+  DateTimePicker as DateTimePickerM,
   TimePicker
 } from "@atlaskit/datetime-picker";
 
@@ -11,7 +11,7 @@ export default class DateTimePicker extends React.Component {
     const props = Object.assign({}, this.props);
     delete props.type;
     if (this.props.type === "DateTimePicker") {
-      return <DateTimePicker {...props} />;
+      return <DateTimePickerM {...props} />;
     } else if (this.props.type === "TimePicker") {
       return <TimePicker {...props} />;
     } else {
