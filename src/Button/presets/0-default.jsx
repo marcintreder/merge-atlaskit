@@ -5,10 +5,10 @@ export default (
   <Button
     uxpId="button0"
     shouldFitContainer
-    appearance="primary"
+    appearance="danger"
     isDisabled={false}
     isLoading={false}
   >
-    Hello!
+    Hello Merge!
   </Button>
 );
