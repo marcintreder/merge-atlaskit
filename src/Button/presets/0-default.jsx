@@ -9,6 +9,6 @@ export default (
     isDisabled={false}
     isLoading={false}
   >
-    Merge!
+    Hello!
   </Button>
 );
